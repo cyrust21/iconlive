@@ -93,7 +93,7 @@ html {
     
     margin: 5px 0px 0px 0px;
     overflow-y: scroll;
-    max-height: 100px
+    max-height: 50px
     overflow-wrap: break-word;
     background-color: lightgray;
     color: black;   
