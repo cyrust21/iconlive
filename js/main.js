@@ -18,7 +18,7 @@ var videoPlayer = document.getElementById('videoPlayer');
 		// Call the webservices to load the playlist
 
 		var loadPlayList = function (){
-			fetch('https://cyrust21.github.io/iconlive/js/videos.json1').then(function(response) {
+			fetch('https://cyrust21.github.io/iconlive/js/videos.json').then(function(response) {
 
 			  if(response.ok) {
 			    return response.json();
